@@ -1,0 +1,161 @@
+/* global */
+body {
+  font-family: sans-serif;
+  line-height: 1;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+}
+
+.container {
+  margin: 3rem;
+}
+/* Navbar */
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  font-weight: bold;
+  margin-left: 172px;
+  justify-content: space-between;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.list li:hover {
+  border-bottom: black 3px solid;
+}
+
+.list-item:nth-child(1) {
+  border-bottom: black 3px solid;
+}
+
+.button-group {
+  text-align: right;
+  display: flex;
+  margin-left: 260px;
+  align-items: center;
+  justify-content: right;
+}
+
+.search-icon svg {
+  height: 21px;
+  width: 18px;
+  margin-right: 15px;
+  padding: 1px;
+  margin-top: 8px;
+}
+
+.nav-button {
+  padding: 4px 34px;
+  border-radius: 9px;
+  background-color: white;
+  color: gray;
+  border-color: grey;
+}
+
+/* hero */
+
+.section-hero {
+  margin-top: 60px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1500px;
+}
+
+.img-left {
+  position: relative;
+  z-index: -1;
+}
+
+.img-left img {
+  width: 90%;
+  height: 90%;
+}
+
+.square-img {
+  position: absolute;
+  top: 80px;
+  left: 84px;
+  z-index: -10;
+}
+
+.right-container {
+  text-align: center;
+}
+.hero-heading {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 85px;
+}
+
+.hero-description {
+  font-size: 10px;
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 70px;
+}
+
+.iconsbig {
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  bottom: 448px;
+  right: 216px;
+}
+
+.star img {
+  height: 44px;
+  width: 44px;
+}
+
+.globe {
+  position: absolute;
+  bottom: 489px;
+  right: 578px;
+}
+
+.globe img {
+  height: 54px;
+  width: 54px;
+}
+
+.button-email {
+  padding: 4px 34px;
+  border-radius: 9px;
+  background-color: white;
+  color: gray;
+  border-color: grey;
+}
+
+.button-join {
+  padding: 4px 24px;
+  border-radius: 9px;
+  background-color: white;
+  color: white;
+  border-color: grey;
+  background-color: black;
+}
+
+.contact-heading {
+  margin-top: 100px;
+  color: rgba(0, 0, 0, 0.541);
+}
+
+.icons img {
+  margin: 0px 7px;
+}
